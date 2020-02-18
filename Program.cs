@@ -15,7 +15,7 @@ namespace ConsoleApp88
 
             var dictionary = new Dictionary<long, string>();
             #region
-            dictionary.Add(1, "One");
+            dictionary[1]= "One";
             dictionary[10] = "Ten";
             dictionary[100] = "1 Hundred";
             dictionary[1_000] = "1 thousand";
