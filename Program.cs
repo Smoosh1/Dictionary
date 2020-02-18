@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using static System.Console;
 
 namespace ConsoleApp88
@@ -48,19 +48,19 @@ namespace ConsoleApp88
             {
                 case "-":
                     result = digit - digitTwo;
-                    WriteLine($"{dictionary[digit]} {operation} {dictionary[digitTwo]} = {result}");
+                    WriteLine($"{dictionary[digit]} {operation} {dictionary[digitTwo]} = {dictionary[result]}");
                     break;
                 case "+":
                     result = digit + digitTwo;
-                    WriteLine($"{dictionary[digit]} {operation} {dictionary[digitTwo]} = {result}");
+                    WriteLine($"{dictionary[digit]} {operation} {dictionary[digitTwo]} = {dictionary[result]}");
                     break;
                 case "*":
                     result = digit * digitTwo;
-                    WriteLine($"{dictionary[digit]} {operation} {dictionary[digitTwo]} = {result}");
+                    WriteLine($"{dictionary[digit]} {operation} {dictionary[digitTwo]} = {dictionary[result]}");
                     break;
                 case "/":
                     result = digit / digitTwo;
-                    WriteLine($"{dictionary[digit]} {operation} {dictionary[digitTwo]} = {result}");
+                    WriteLine($"{dictionary[digit]} {operation} {dictionary[digitTwo]} = {dictionary[result]}");
                     break;
                 default:
                     WriteLine("Нажми корректеный знак операции");
